@@ -1,0 +1,198 @@
+*{
+			margin:0;
+			padding: 0;
+			font-family:'Source Sans Pro';
+		}
+		
+		
+		.banner{
+			height: 400px;
+			position:relative;
+		}
+		
+		.homebanner{
+			height: 400px;
+			width:100%;
+			position:absolute;
+			top:0;
+			left:0;
+		}
+		
+		.homebannerImage{
+			background-image:url('../images/applymap.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position:center;
+			height: inherit;
+		}
+		
+		.appbannerImage{
+			background-image:url('../images/applymap.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position:center;
+			height: inherit;
+			position: relative;
+		}
+		
+		.fellowsbannerImage{
+			background-image:url('../images/fellow.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position:center;
+			height: inherit;
+			position: relative;
+		}
+		
+		.bannerHeading{
+			width: 100%;
+			text-align: center;
+			
+		}
+		
+		.homebannerHeading{
+			width: 100%;
+			height:100%;
+			text-align: center;
+			
+		}
+		
+		.bannerHeading h1{
+			margin:0;
+			padding:1em;
+			position:absolute;
+			bottom:0;
+			width:100%;
+			background: rgba(0,0,0,0.5);
+			color:white;
+			font-family:'Source Sans Pro';
+			font-size: 3em;
+		}
+		
+		.homebannerHeading h1{
+			margin:0;
+			padding:1em;
+			padding-top: 25%;
+			width:100%;
+			height: 100%;
+			background: rgba(0,0,0,0.5);
+			color:white;
+			font-family:'Source Sans Pro';
+			font-size: 3em;
+		}
+		
+		.navbar .navbar-nav {
+			display: inline-block;
+			float: none;
+			font-size: 1.3em;
+		}
+	
+		.navbar .navbar-collapse {
+			text-align: right;
+			padding:0;
+		}
+		
+		.navbar-default{
+			background: none;
+			border: none;
+		}
+		
+		.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active{
+			color: white;
+			outline: 0;
+		}
+		
+		.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus  {
+			background: none repeat scroll 0% 0% transparent;
+			color: #FFF;
+			border-top: 3px solid #FFF;
+			padding-top: 11px;
+		}
+		
+		.navbar-default .navbar-brand{
+			color: white;
+			font-family: 'Cinzel';
+			font-weight: bold;
+			font-size: 2em;
+			margin: 0.1em 1em !important;
+		}
+		
+		.navbar-default .navbar-brand:hover{
+			color: white;
+		}
+		
+		.justified{
+			text-align: justify;
+		}
+		
+		.content, .homecontent{
+			margin: 3em auto;
+			font-size: 1.5em;
+		}
+		
+		.center{
+			text-align: center;
+			margin: 2em auto;
+		}
+		
+		.homecontent .lead{
+		
+		}
+		
+		.lead{
+			margin-bottom: 2em;
+		}
+		
+		form{
+			margin: 2em auto;
+		}
+		
+		.control-label{
+			padding-top: 0 !important;
+			text-align: left !important;
+		}
+		
+		input[type="checkbox"]{
+			margin-top: 8px;
+		}
+		
+		#othersText{
+			margin-left: 1em;
+			padding-left: 0.3em;
+		}
+		
+		.checkbox{
+			padding-top: 0 !important;
+			margin-bottom: 0.5em !important;
+		}
+		
+		.question{
+			display: block;
+		}
+		
+		.answer{
+			margin-left: 15px;	
+			height: 100px !important;
+			margin-top: 1em;
+			width: 90%;
+		}
+		
+		.applyButton{
+			font-size: 1.5em;
+			margin: 1em 0;
+		}
+		
+		.applyButtonContainer{
+			text-align: center;
+		}
+		
+		.fellowProfile{
+			position: relative;
+			text-align: center;
+			margin-top: 1em;
+		}
+		
+		.fellowProfile img{
+			width: auto;
+			height: 300px;
+		}
