@@ -121,6 +121,13 @@
 			color: white;
 		}
 		
+		.navbar-default .navbar-nav > li > button{
+			margin-top: 8px;
+			margin-left: 0.6em;
+			font-size: 1em;
+			padding: 0.2em 1em;
+		}
+		
 		.justified{
 			text-align: justify;
 		}
@@ -194,5 +201,7 @@
 		
 		.fellowProfile img{
 			width: auto;
-			height: 300px;
+			height: 250px;
+			border-radius: 50%;
 		}
+		

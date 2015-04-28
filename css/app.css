@@ -1,0 +1,12 @@
+body{
+	padding-top: 4em;
+}
+
+
+
+.inputText{
+	padding:0.5em 0.3em;
+	vertical-align: middle;
+	border:none;
+	border-bottom: 1px solid #000000;
+}
