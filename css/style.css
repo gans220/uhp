@@ -1,0 +1,270 @@
+/***Remove all padding and margin***/
+*{
+	margin:0;
+	padding: 0;
+	font-family:'Source Sans Pro';
+}
+
+/**Generic Style**/
+.justified{
+	text-align: justify;
+}
+
+.center{
+	text-align: center;
+}
+
+/***Import the edmondsans font***/		
+@font-face {
+	font-family: 'EdmondSans';
+	src: url("../fonts/Edmondsans-Medium.otf");
+}
+
+/**Navbar styling**/
+
+.navbar{
+	opacity:0;
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	font-size: 1.2em;
+	font-family:"EdmondSans";
+}
+
+.navbar .navbar-collapse {
+	text-align: right;
+	padding:0;
+}
+
+.navbar-default{
+	background: rgba(255,255,255,0.99);
+	border: none;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active{
+	color: #F5A623;
+	outline: 0;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus  {
+	background: none repeat scroll 0% 0% transparent;
+	color: #F5A623;
+	border-top: 3px solid #F5A623;
+	padding-top: 12px;
+}
+
+.navbar-default .navbar-brand{
+	color: #F5A623;
+	font-family: 'EdmondSans';
+	font-weight: bold;
+	font-size: 2em;
+	margin: 0.1em 1em !important;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #F5A623;
+}
+
+.navbar-default .navbar-nav > li > button{
+	margin-top: 8px;
+	margin-left: 0.6em;
+	font-size: 1em;
+	padding: 0.2em 1em;
+	background:none;
+	border: 2px solid #F6A321;
+	color:#F6A321;
+}
+
+
+
+
+/**Banner image stylings***/
+
+/**Home Banner**/
+
+.homebannerHeading{
+	width: 100%;
+	text-align: center;
+	position:absolute;
+	background:rgba(253,251,223,0.92);
+}
+
+.homebannerImage{
+	background-image:url('../images/map.jpg');
+	background-size:cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment:fixed; /*This is will fix the background image in its place creating the parallax along with the js*/
+	position: relative;
+}
+
+.homebannerHeading  h1{
+	font-size: 8em;
+	font-family: 'EdmondSans' !important;
+	color: #F5A623;
+	text-align:left;
+	position:absolute;
+	top:60px;
+	left: 100px;
+}
+
+.homebannerHeading  h4{
+
+	font-family: 'EdmondSans' !important;
+	color: #545550;
+	font-size:2.3em;
+	text-align:left;
+	position:absolute;
+	top:460px;
+	left: 100px;
+}
+
+.mapPath{ /**the image for the mappath in header positioned in css*/
+	position:absolute;
+	left:501px;
+	top:65px;
+}
+
+.holder{ /*a container to hold the home banner in place together**/
+	width:100%;	
+	position:relative;
+	overflow:hidden;
+}
+
+/*applybutton in the home banner**/
+.applyButton{
+	font-size: 1.3em;
+	position: absolute;
+	top:0;
+	right:0;
+	margin: 1.6em 2.2em;
+	border: 3px solid #F6A321;
+	border-radius: 5px;
+	padding: 0.3em 1.1em;
+	color: #F6A321;
+	font-weight: bold;
+	font-family: 'EdmondSans'
+}
+
+.applyButton:hover{
+	color:#FDF9DB;
+	background-color: #F6A321;
+}
+
+/*Fellows banner styling**/
+
+.fellowbannerHeading{
+	width: 100%;
+	text-align: center;
+	position:fixed;
+	top:35%;
+	opacity:0;
+	color:white;
+}
+
+.fellowbannerHeading  h1{
+	font-size: 8em;
+	font-family: 'EdmondSans' !important;
+}
+
+.fellowsbannerImage{
+	background-image:url('../images/fellow.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center 0;
+	background-attachment:fixed;
+	z-index: -2;/* so that the overlay that follows can be on the top*/
+}
+
+/**The black overlay for the fellows banner so that the text is visible**/
+.overlay{
+	background-color: rgba(0,0,0,0.4);
+	position: relative;
+	width: 100%;
+	height: 100%;
+}		
+
+.fellowbannerHeading  ul{
+	list-style-type: circle;
+	font-size: 2em;
+	font-family: "edmondsans";
+}
+
+.fellowbannerHeading  li{
+	display: inline;
+	margin-left: 0.2em;
+}
+
+.fellowbannerHeading li::before {
+ content: '\25cf\a0';
+}
+
+/*Fellow profile Images */
+.fellowProfile{
+	position: relative;
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+.fellowProfile img{
+	width: auto;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.fellowProfile h3{
+	font-size: 1.2em;
+	font-family: "EdmondSans";
+	margin-bottom: 0.2em;
+}
+
+.fellowProfile p{
+	font-size: 0.7em;
+}
+
+/*Content Styling*/	
+.content, .homecontent{
+	margin: 2em auto;
+	font-size: 1.5em;
+	padding-top: 0 !important;
+	position: relative;
+	font-family: "Source Sans Pro";
+	color: #424242;
+	margin-bottom: 4em;
+}
+
+.leadTextBig{
+	font-family:"EdmondSans";
+	font-size: 1.5em;
+	color: #424242;
+	margin: 1.3em 0 0.5em 0;
+}
+
+.leadTextSmall{
+	font-family:"Source Sans Pro";
+	font-size: 1em;
+	color: #424242;
+	margin-top:0.3em;
+}
+
+.homecontent hr{
+	width: 20%;
+	text-align: center;
+	margin: 1em auto 1.5em auto;
+	border-color: #424242;
+}
+
+.homecontent a{
+	color:#F5A623;
+}
+
+.homecontent a:visited{
+	color:#F5A623;
+}
+
+.homecontent a:hover{
+	color:#d88500;
+	text-decoration: none;
+}
