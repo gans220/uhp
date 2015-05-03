@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 if($(window).height()>540)
 {
 	$('.homebannerImage').height($(window).height());
@@ -19,6 +20,12 @@ $('.fellowsbannerImage').height($(window).height());
 		}//bootstrap 3.x by Richard
 	});
 
+=======
+$('.homebannerImage').height($(window).height());
+$('.fellowsbannerImage').height($(window).height());
+$('.homebannerHeading').height($(window).height());
+$('.holder').height($(window).height());
+>>>>>>> e62372794b8b3ca800af4de9c2cf458939833c14
 
 $(function() {
 	console.log( "ready!" );
@@ -35,7 +42,11 @@ $(function() {
 		}, 1000, "linear");
 	});
 	
+<<<<<<< HEAD
 	$('.navbar').hide();
+=======
+
+>>>>>>> e62372794b8b3ca800af4de9c2cf458939833c14
 	$(window).scroll(function() {
 		
 		
@@ -43,12 +54,18 @@ $(function() {
 		var scrollPos = $(this).scrollTop();
 		
 		if(scrollPos>20){
+<<<<<<< HEAD
 			$('.navbar').show();
+=======
+>>>>>>> e62372794b8b3ca800af4de9c2cf458939833c14
 			$('.navbar').css({'opacity':scrollPos/80});
 			$('.applyButton').hide();
 		}
 		else{
+<<<<<<< HEAD
 			$('.navbar').hide();
+=======
+>>>>>>> e62372794b8b3ca800af4de9c2cf458939833c14
 			$('.navbar').css({'opacity':0});
 			$('.applyButton').fadeIn("slow");
 		}
@@ -82,6 +99,7 @@ $(function() {
 		
 	
 		//Scroll the background of the banner
+<<<<<<< HEAD
 		if($(window).width()>1000){
 			
 			$('.homebannerImage').css({
@@ -92,6 +110,15 @@ $(function() {
 				'background-position' : 'center ' + (-scrollPos/8)+"px"
 			});
 		}
+=======
+		$('.homebannerImage').css({
+			'background-position' : 'center ' + (-scrollPos/8)+"px"
+		}); 
+
+		$('.fellowsbannerImage').css({
+			'background-position' : 'center ' + (-scrollPos/8)+"px"
+		});
+>>>>>>> e62372794b8b3ca800af4de9c2cf458939833c14
 
 	});
 	});

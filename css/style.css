@@ -209,8 +209,13 @@
 }
 
 .fellowProfile img{
+<<<<<<< HEAD
 	width: 80%;
 	height: auto;
+=======
+	width: auto;
+	height: 200px;
+>>>>>>> e62372794b8b3ca800af4de9c2cf458939833c14
 	border-radius: 50%;
 }
 
