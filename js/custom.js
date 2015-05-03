@@ -19,7 +19,6 @@ $('.fellowsbannerImage').height($(window).height());
 		}//bootstrap 3.x by Richard
 	});
 
-
 $(function() {
 	console.log( "ready!" );
 	
